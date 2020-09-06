@@ -7,11 +7,13 @@
 File 1
 
 Learn C programming at Codeforwin.
+
 Working with files and directories.
 
 File 2
 
 Learn C programming at Codeforwin.
+
 Working with array and pointers.
 ```
 ### Output
@@ -21,14 +23,23 @@ Line: 2, column: 14
 ```
 
 Step by step descriptive logic to compare two files character by character.
+
 Input file path of two files to compare from user, store it in path1 and path2.
+
 Open both files in r (read) mode and store their references in fPtr1 and fPtr2.
+
 Define a function int compareFile(FILE * fPtr1, FILE * fPtr2, int * line, int * col). The function will return 0 if both files are same, otherwise returns -1. Perform all below steps inside function.
+
 Set *line = 1 and *col = 0.
+
 Read a character from both files and compare.
+
 Increment *line by one and set *col = 0 if current character is new line character '\n'. If both characters are different then return -1. Otherwise, increment *col by one if both characters are same.
+
 Repeat step 5-6 until characters from both files are matching, or file has reached end.
+
 If both files has reached end then return 0 otherwise return -1.
+
 ### Program to compare two files
 
 ```
@@ -140,6 +151,9 @@ int compareFile(FILE * fPtr1, FILE * fPtr2, int * line, int * col)
 }
 ```
 File contents of data\compare1.txt
+
 Learn C programming at Codeforwin.
+
 Working with files and directories.
+
 File contents of data\compare2.txt
