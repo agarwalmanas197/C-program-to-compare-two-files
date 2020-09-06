@@ -6,20 +6,16 @@
 ```
 File 1
 
-Learn C programming at Codeforwin.
-
+Learn C programming at College.
 Working with files and directories.
-
 File 2
 
-Learn C programming at Codeforwin.
-
+Learn C programming at College.
 Working with array and pointers.
 ```
 ### Output
 ```
 File are not equal. 
-Line: 2, column: 14
 ```
 
 Step by step descriptive logic to compare two files character by character.
@@ -41,7 +37,6 @@ Repeat step 5-6 until characters from both files are matching, or file has reach
 If both files has reached end then return 0 otherwise return -1.
 
 ### Program to compare two files
-
 ```
 /**
  * C program to compare two files character by character.
@@ -152,8 +147,18 @@ int compareFile(FILE * fPtr1, FILE * fPtr2, int * line, int * col)
 ```
 File contents of data\compare1.txt
 
-Learn C programming at Codeforwin.
+Learn C programming at College.
 
 Working with files and directories.
 
 File contents of data\compare2.txt
+
+Learn C programming at College.
+
+Working with array and pointers.
+
+
+### Output
+```
+Files are not equal.
+```
