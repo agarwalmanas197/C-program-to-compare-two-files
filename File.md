@@ -1,6 +1,6 @@
 # C program to compare two files.
 
-## Write a C program to read contents of two files and compare them character by character. How to compare two files character by character and line by line in C programming. Logic to compare two files line by line and print difference line and column number in C program.
+### Write a C program to read contents of two files and compare them character by character. How to compare two files character by character and line by line in C programming. Logic to compare two files line by line and print difference line and column number in C program.
 
 ### Example
 ```
